@@ -1,0 +1,65 @@
+{
+   "action": {
+      "default_icon": "logo-34.png",
+      "default_title": "Open Tabs Nodes Tree"
+   },
+   "background": {
+      "service_worker": "background.bundle.js"
+   },
+   "commands": {
+      "add_to_branch": {
+         "description": "Add selected tab nodes to a branch",
+         "suggested_key": {
+            "default": "Alt+B",
+            "mac": "MacCtrl+Command+B"
+         }
+      },
+      "create_new_tab_as_a_child": {
+         "description": "Create a new tab as a child",
+         "suggested_key": {
+            "default": "Alt+S",
+            "mac": "MacCtrl+Command+A"
+         }
+      },
+      "create_new_tab_at_the_same_level": {
+         "description": "Create a new tab at the same level",
+         "suggested_key": {
+            "default": "Alt+A",
+            "mac": "MacCtrl+Shift+A"
+         }
+      },
+      "duplicate_active_tab": {
+         "description": "Duplicate active tab"
+      },
+      "open_quick_navigation_panel": {
+         "description": "Open \"Quick Navigation Panel\"",
+         "suggested_key": {
+            "default": "Ctrl+Q",
+            "mac": "MacCtrl+Q"
+         }
+      }
+   },
+   "content_security_policy": {
+      "extension_pages": "script-src 'self' http://localhost:* ; "
+   },
+   "default_locale": "en",
+   "description": "Effortlessly navigate and organize your tabs with an intuitive tree-style view",
+   "devtools_page": "devtools.html",
+   "icons": {
+      "128": "logo-128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvSd2/m7aZyCXav37uf01Dm7RTLxkRxdmx4XKTOiOUPme7Vzif+ufm0uKO3kyh8cZaWgW4RbU7ziLdJWG/Uhffz6u5OUOeg1bJbzQtawE+4PpkoTAUnLBpCAWrB5j8z8NzznxVuRsmoC0IMR+STe3hnL7l2GLpLK4cuVarz6sFzCtBDRn9D7czpLE4IGuYsWapq3FWe76BVTYlWmbT3Q3qUR0SkP/VRHODgPYHdLx4WtZBvxbXv3RXcTKRZ/WJvQnBIsC+oXczwOGxRiIzFss7wBsoU1epqmbe1Fg4ni0cQv74fAmZAiQ+mAvBmB3C87edcwVx3f4vNxosk1hteVcqQIDAQAB",
+   "manifest_version": 3,
+   "name": "Tab Nodes Tree",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "sidePanel", "tabGroups", "storage", "commands", "alarms" ],
+   "side_panel": {
+      "default_path": "side-panel.html"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6.2",
+   "web_accessible_resources": [ {
+      "matches": [  ],
+      "resources": [ "content.styles.css", "logo-128.png", "logo-34.png" ]
+   } ]
+}

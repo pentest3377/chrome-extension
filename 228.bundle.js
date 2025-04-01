@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktab_nodes_tree_extension=self.webpackChunktab_nodes_tree_extension||[]).push([[228],{5228:(e,n,o)=>{o.r(n),o.d(n,{default:()=>t});let t={cssVar:!0,components:{Dropdown:{zIndexPopup:5e6}},token:{borderRadius:4,paddingContentHorizontalLG:8,paddingMD:12,zIndexPopupBase:5e6}}}}]);
